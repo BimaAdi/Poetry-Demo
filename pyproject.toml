@@ -7,7 +7,13 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+faker = "^25.8.0"
+pandas = "^2.2.2"
 
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.8"
+pytest = "^8.2.2"
 
 [build-system]
 requires = ["poetry-core"]
